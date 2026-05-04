@@ -4,9 +4,9 @@ import authReducer from "./authSlice";
 import productReducer from "./productSlice";
 
 export default configureStore({
-  reducer: {
-    cart: cartReducer,
-    auth: authReducer,
-    products: productReducer,
-  },
+    reducer: {
+        cart: cartReducer,
+        auth: authReducer,
+        products: productReducer,
+    },
 });
